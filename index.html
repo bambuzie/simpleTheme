@@ -1,1 +1,101 @@
-<h1> nope </h1>
+Skip to content
+This repository
+Search
+Pull requests
+Issues
+Marketplace
+Explore
+ @bambuzie
+ Sign out
+ Watch 1
+  Star 0  Fork 0 bambuzie/ToCorgiOrToCrouton
+ Code  Issues 0  Pull requests 0  Projects 0  Wiki  Insights  Settings
+Branch: master Find file Copy pathToCorgiOrToCrouton/index.html
+0c8007a  on Nov 16, 2017
+@ctrezevant ctrezevant Initial commit
+1 contributor
+RawBlameHistory     
+75 lines (66 sloc)  1.57 KB
+<head>
+  <title> To Corgi or to Crouton? </title>
+
+  <!-- Include jQuery and jQuery UI -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Dosis:800" rel="stylesheet">
+
+<style>
+html, body {
+    height: 100%;
+}
+body {
+    margin: 0;
+}
+span {
+  padding: 10px;
+  text-align: center;
+  font-family: 'Dosis', sans-serif;
+  font-size: 100px;
+}
+#content {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/*flexbox
+*/
+#croutonbox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  background-color: #d67373;
+}
+#corgibox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  background-color: #A0808E;
+}
+</style>
+</head>
+
+<body>
+  <div id="content">
+    <div id="croutonbox" class="left crouton">
+      <span>Crouton me!</span>
+      <!--<img id="croutonpic" class="crouton" src="images/crouton.png" />-->
+    </div>
+
+    <div id="corgibox" class="right corgi">
+      <span>Corgi me!</span>
+      <!--<img id="corgipic" class="corgi" src="images/corgi.gif" />-->
+    </div>
+  </div>
+  <script>
+  </script>
+
+</body>
+© 2018 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Help
+Contact GitHub
+API
+Training
+Shop
+Blog
+About
